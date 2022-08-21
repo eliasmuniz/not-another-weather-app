@@ -1,5 +1,12 @@
 .weatherContainer{
     width: 500px;
-    height: 500px;
+    height: 50px;
     margin: 150px auto
+}
+
+@media screen and (max-width: 768px) {
+    .weatherContainer{
+        width: 90%;
+   
+    }
 }
